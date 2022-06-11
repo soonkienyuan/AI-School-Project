@@ -2,9 +2,24 @@
 	{	"tags": "Greeting",
 		"patterns": ["Hello! How can I help you?","Hi! Ask me anything.","Hi! I'm ready to answer all your questions."],
 		"responses":[]
+	},{
+		"tags": "Product Information",
+		"patterns":["Does this product available?","Is product original and have warranty?","Why the product is cheaper?"],
+		"responses": []
 	},
-	{"Product Information":["Does this product available?","Is product original and have warranty?","Why the product is cheaper?"]},
-	{"Shipping Information":["Shipping estimation","Logistic information","How can I get free shipping?"]},
-	{"Return & Refund":["How do I return my product?","I want refund."]},
-	{"FAQ":["Please select a question from the above FAQ or click the \"Chat with Seller\" button."]}]
+	{
+		"tags": "Shipping Information",
+		"patterns":["Shipping estimation","Logistic information","How can I get free shipping?"],
+		"responses":[]
+	},
+	{
+		"tags": "Return & Refund",
+		"patterns":["How do I return my product?","I want refund."],
+		"responses":[]
+	},
+	{
+		"tags": "FAQ",
+		"patterns":["Please select a question from the above FAQ or click the \"Chat with Seller\" button."],
+		"responses":[]
+	}]
 }

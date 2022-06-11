@@ -8,7 +8,7 @@
     {
         "patterns": "do u have coffee",
         "responses": [
-            "Yes sir  Simple Coffee ,Cappuchino, Americano, Au Laite ,Au Laite Cappucchino ,Chans Espresso ,Con Panna, Black Coffee, Espresso, Frappe ,French Coffee ,Iced Coffee Late ,Irish Coffee, Latte Macchiato and  Wainans Choco Coffee.What would u like to have?"
+            "Yes sir  Simple Coffee ,Cappuchino, Americano, Au Laite ,Au Laite Cappucchino ,Chans Espresso ,Con Panna, Black Coffee, Espresso, Frappe ,French Coffee ,Iced Coffee Late ,Irish Coffee, Latte Macchiato and  Wainans Choco Coffee.What would u like to have?.What would u like to have?"
         ]
     },
     {
@@ -24,9 +24,9 @@
         ]
     },
     {
-        "patterns": " suggest something",
+        "patterns": "suggest something",
         "responses": [
-            "We have coffe,pastries,puff pastries and milkshakes.What would you like to have?"
+            "I may suggest you Pista Shake"
         ]
     },
     {
@@ -60,15 +60,9 @@
         ]
     },
     {
-        "patterns": " what special do u have",
+        "patterns": "do you have",
         "responses": [
-            "  Prdon please, what you want ?"
-        ]
-    },
-    {
-        "patterns": " do you have",
-        "responses": [
-            "  Prdon please, what you want ?"
+            "Pardon please, what you want ?"
         ]
     },
     {
@@ -78,39 +72,27 @@
         ]
     },
     {
-        "patterns": " do you have espresso",
+        "patterns": "do you have espresso",
         "responses": [
-            "  Yes we have your choice in our cafe."
+            "Yes we have your choice in our cafe."
         ]
     },
     {
-        "patterns": " do you have coffee",
+        "patterns": "do you have coffee",
         "responses": [
             "Yes sir  Simple Coffee ,Cappuchino, Americano, Au Laite ,Au Laite Cappucchino ,Chans Espresso ,Con Panna, Black Coffee, Espresso, Frappe ,French Coffee ,Iced Coffee Late ,Irish Coffee, Latte Macchiato and  Wainans Choco Coffee.What would u like to have?"
         ]
     },
     {
-        "patterns": " what do you have",
+        "patterns": "what do you have",
         "responses": [
-            "  Prdon please, what you want ?"
+            "Pardon please, what you want ?"
         ]
     },
     {
-        "patterns": " do u have coffee",
-        "responses": [
-            "Yes sir  Simple Coffee ,Cappuchino, Americano, Au Laite ,Au Laite Cappucchino ,Chans Espresso ,Con Panna, Black Coffee, Espresso, Frappe ,French Coffee ,Iced Coffee Late ,Irish Coffee, Latte Macchiato and  Wainans Choco Coffee.What would u like to have?.What would u like to have?"
-        ]
-    },
-    {
-        "patterns": " i will take one espresso and 2 americano",
+        "patterns": "i will take one espresso and 2 americano",
         "responses": [
             "Sir thanks for your order. You have ordered 1 espresso and 2 americano.Please wait for sometime."
-        ]
-    },
-    {
-        "patterns": "suggest something",
-        "responses": [
-            "I may suggest you Pista Shake"
         ]
     },
     {
@@ -120,25 +102,7 @@
         ]
     },
     {
-        "patterns": " hello",
-        "responses": [
-            "Hello! How may I help you."
-        ]
-    },
-    {
-        "patterns": " what do u have",
-        "responses": [
-            "Pardon please, what you want ?"
-        ]
-    },
-    {
         "patterns": "what do u have",
-        "responses": [
-            "Pardon please, what you want ?"
-        ]
-    },
-    {
-        "patterns": "what do you have",
         "responses": [
             "Pardon please, what you want ?"
         ]
@@ -150,15 +114,9 @@
         ]
     },
     {
-        "patterns": "do you have",
-        "responses": [
-            "Pardon please, what you want ?"
-        ]
-    },
-    {
         "patterns": "do u have milkshake",
         "responses": [
-            "Yes Sir Chocolate and Vanila Combo,Avocado Shake,Apple pomegranate juice,Drumstick Milkshake,Pumpkin Shake,Malted Chocolate,Oreo Shake,Pista Shake,Mix Fruit Smothie,Tiramisu Milkshake,Banana Cream treat,Cotton candy shake,Cranberry Orange,Mint White Chocolate,Cheery Vanila,Peanut Vanila,Salted Caramel Pretzel and Smores"
+            "Yes Sir Chocolate and Vanila Combo,Avocado Shake,Apple pomegranate juice,Drumstick Milkshake,Pumpkin Shake,Malted Chocolate,Oreo Shake,Pista Shake,Mix Fruit Smothie,Tiramisu Milkshake,Banana Cream treat,Cotton candy shake,Cranberry Orange,Mint White Chocolate,Cheery Vanila,Peanut Vanila,Salted Caramel Pretzel and Smores.What would you like to have?"
         ]
     },
     {
@@ -198,19 +156,13 @@
         ]
     },
     {
-        "patterns": " do you have milkshake",
+        "patterns": "do you have milkshake",
         "responses": [
-            "yes please what combo avocado shake apple pomegranate juice drumstick "
+            "yes please what combo avocado shake apple pomegranate juice drumstick"
         ]
     },
     {
-        "patterns": " do u have milkshake",
-        "responses": [
-            "Yes Sir Chocolate and Vanila Combo,Avocado Shake,Apple pomegranate juice,Drumstick Milkshake,Pumpkin Shake,Malted Chocolate,Oreo Shake,Pista Shake,Mix Fruit Smothie,Tiramisu Milkshake,Banana Cream treat,Cotton candy shake,Cranberry Orange,Mint White Chocolate,Cheery Vanila,Peanut Vanila,Salted Caramel Pretzel and Smores.What would you like to have?"
-        ]
-    },
-    {
-        "patterns": " i will take one Avocado Shake and 2 Salted Caramel Pretzel ",
+        "patterns": "i will take one Avocado Shake and 2 Salted Caramel Pretzel",
         "responses": [
             "Sir thanks for your order. You have ordered 1 Avocado Shake   and 2 Salted Caramel Pretzel .Please wait for sometime."
         ]
@@ -242,7 +194,7 @@
     {
         "patterns": "I will take one Mix Cupcake and 2 Strawberry Traimisu.",
         "responses": [
-            "\nSir thanks for your order. You have ordered  Mix Cupcake and 2 Strawberry Traimisu.Please wait for sometime."
+            "Sir thanks for your order. You have ordered  Mix Cupcake and 2 Strawberry Traimisu.Please wait for sometime."
         ]
     },
     {
@@ -260,7 +212,7 @@
     {
         "patterns": "do you have  pastery",
         "responses": [
-            "\nYes sir Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque,Vanila Layer,Fruit & Cheese cerame,Mix Cupcake,Macrons,Waffel Ice-cream,Waffel Choco .What would u like to have?"
+            "Yes sir Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque,Vanila Layer,Fruit & Cheese cerame,Mix Cupcake,Macrons,Waffel Ice-cream,Waffel Choco .What would u like to have?"
         ]
     },
     {
@@ -284,7 +236,7 @@
     {
         "patterns": "do u have pastery?",
         "responses": [
-            "Yes sir Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque,Vanila Layer,Fruit & Cheese cerame,Mix Cupcake,Macrons,Waffel Ice-cream,Waffel Choco .What would u like to have?"
+            "Yes sir, we have Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque,Vanila Layer,Fruit & Cheese cerame,Mix Cupcake,Macrons,Waffel Ice-cream,Waffel Choco .What would u like to have?"
         ]
     },
     {
@@ -294,25 +246,25 @@
         ]
     },
     {
-        "patterns": " do you have pastery",
+        "patterns": "do you have pastery",
         "responses": [
             "Yes sir, we have Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque,Vanila Layer,Fruit & Cheese cerame,Mix Cupcake,Macrons,Waffel Ice-cream,Waffel Choco .What would u like to have?"
         ]
     },
     {
-        "patterns": " do you have Waffel Ice-cream?",
+        "patterns": "do you have Waffel Ice-cream?",
         "responses": [
-            "  Yes we have your choice in our cafe."
+            "Yes we have your choice in our cafe."
         ]
     },
     {
-        "patterns": " do you have pastery?",
+        "patterns": "do you have pastery?",
         "responses": [
             "Yes sir, we have Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque,Vanila Layer,Fruit & Cheese cerame,Mix Cupcake,Macrons,Waffel Ice-cream,Waffel Choco .What would u like to have?"
         ]
     },
     {
-        "patterns": "\ndo You have Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque.?",
+        "patterns": "do You have Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque.?",
         "responses": [
             "Yes we have your choice in our cafe."
         ]
@@ -366,12 +318,6 @@
         ]
     },
     {
-        "patterns": " do u have pastery?",
-        "responses": [
-            "Yes sir, we have Red Velvet,Strawberry Traimisu,Black Forest,Black Tie Mose,Honey Slice,Walnut Pastry,Mango cream Bluree,Maxres Special,Pineapple Shot cake,Strawberry Basque,Vanila Layer,Fruit & Cheese cerame,Mix Cupcake,Macrons,Waffel Ice-cream,Waffel Choco .What would u like to have?"
-        ]
-    },
-    {
         "patterns": "do u have puff pastery",
         "responses": [
             "Yes sir  we have Tanuki,Tomato Cheese,Blueberry Puff,Char Sui,Cinnimon Orange rolls,Easy Spinach,French Pastery,Beef Wellington,Keto Puff,Nutella Puff,Asparagus Puff,Egg Puff,Rough Puff,Simple Cherry Puff,Tart Social,Blaeter  tertei Puff.What would u like to have?"
@@ -402,7 +348,7 @@
         ]
     },
     {
-        "patterns": "Do You have Nutella Puff,Asparagus Puff,Egg Puff,Rough Puff,Simple Cherry Puff,Tart Social,Blaeter  tertei Puff.\n",
+        "patterns": "Do You have Nutella Puff,Asparagus Puff,Egg Puff,Rough Puff,Simple Cherry Puff,Tart Social,Blaeter  tertei Puff.",
         "responses": [
             "Yes we have your choice in our cafe."
         ]
@@ -420,19 +366,13 @@
         ]
     },
     {
-        "patterns": " do you have Blueberry Puff",
+        "patterns": "do you have Blueberry Puff",
         "responses": [
-            "  Yes we have your choice in our cafe."
+            "Yes we have your choice in our cafe."
         ]
     },
     {
-        "patterns": " do u have puff pastery",
-        "responses": [
-            "Yes sir  we have Tanuki,Tomato Cheese,Blueberry Puff,Char Sui,Cinnimon Orange rolls,Easy Spinach,French Pastery,Beef Wellington,Keto Puff,Nutella Puff,Asparagus Puff,Egg Puff,Rough Puff,Simple Cherry Puff,Tart Social,Blaeter  tertei Puff.What would u like to have?"
-        ]
-    },
-    {
-        "patterns": " i will take one Keto Puff and 2 Blaeter  tertei Puff",
+        "patterns": "i will take one Keto Puff and 2 Blaeter  tertei Puff",
         "responses": [
             "Sir thanks for your order. You have ordered 1 Keto Puff and 2 Blaeter  tertei Puff.Please wait for sometime."
         ]
@@ -447,12 +387,6 @@
         "patterns": "do you have Chocolate and Vanila Combo",
         "responses": [
             "Yes we have your choice in our cafe."
-        ]
-    },
-    {
-        "patterns": "do you have milkshake",
-        "responses": [
-            "Yes Sir Chocolate and Vanila Combo,Avocado Shake,Apple pomegranate juice,Drumstick Milkshake,Pumpkin Shake,Malted Chocolate,Oreo Shake,Pista Shake,Mix Fruit Smothie,Tiramisu Milkshake,Banana Cream treat,Cotton candy shake,Cranberry Orange,Mint White Chocolate,Cheery Vanila,Peanut Vanila,Salted Caramel Pretzel and Smores.What would you like to have?"
         ]
     },
     {
@@ -546,12 +480,6 @@
         ]
     },
     {
-        "patterns": "do you have espresso",
-        "responses": [
-            "Yes we have your choice in our cafe."
-        ]
-    },
-    {
         "patterns": "can u serve me",
         "responses": [
             "We have coffe,pastries,puff pastries and milkshakes.What would you like to have?"
@@ -584,7 +512,7 @@
     {
         "patterns": "can i have menu",
         "responses": [
-            "Sir thanks for your order. You have ordered "
+            "Sir thanks for your order. You have ordered"
         ]
     },
     {
@@ -674,7 +602,7 @@
     {
         "patterns": "can i have 5 Waffel Ice-cream",
         "responses": [
-            "Sir thanks for your order. You have ordered "
+            "Sir thanks for your order. You have ordered"
         ]
     },
     {
@@ -752,7 +680,7 @@
     {
         "patterns": "what is price of Nutella Puff,Asparagus Puff,Egg Puff,Rough Puff,Simpl",
         "responses": [
-            "Sir Nutella Puff is of Rs. 190, Asparagus Puff is of Rs. 190, Egg Puff is of Rs. 190, Rough Puff is "
+            "Sir Nutella Puff is of Rs. 190, Asparagus Puff is of Rs. 190, Egg Puff is of Rs. 190, Rough Puff is"
         ]
     },
     {
@@ -872,7 +800,7 @@
     {
         "patterns": "can i have table for 2 on 2-4-20 at 11:00",
         "responses": [
-            "Sir thanks for your order. You have ordered "
+            "Sir thanks for your order. You have ordered"
         ]
     },
     {
@@ -984,7 +912,7 @@
         ]
     },
     {
-        "patterns": "what is price of Chans Espresso ",
+        "patterns": "what is price of Chans Espresso",
         "responses": [
             "Sir Chans Espresso is of Rs. 189, Espresso is of Rs. 189"
         ]
@@ -1002,7 +930,7 @@
         ]
     },
     {
-        "patterns": "what is price of French Coffee ",
+        "patterns": "what is price of French Coffee",
         "responses": [
             "Its our one of best, you can enjoy it at just Rs. 180"
         ]
