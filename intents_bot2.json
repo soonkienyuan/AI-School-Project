@@ -1,25 +1,91 @@
 {"intents": [
-	{	"tags": "Greeting",
-		"patterns": ["Hello! How can I help you?","Hi! Ask me anything.","Hi! I'm ready to answer all your questions."],
-		"responses":[]
-	},{
-		"tags": "Product Information",
-		"patterns":["Does this product available?","Is product original and have warranty?","Why the product is cheaper?"],
-		"responses": []
-	},
-	{
-		"tags": "Shipping Information",
-		"patterns":["Shipping estimation","Logistic information","How can I get free shipping?"],
-		"responses":[]
-	},
-	{
-		"tags": "Return & Refund",
-		"patterns":["How do I return my product?","I want refund."],
-		"responses":[]
-	},
-	{
-		"tags": "FAQ",
-		"patterns":["Please select a question from the above FAQ or click the \"Chat with Seller\" button."],
-		"responses":[]
-	}]
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "menu",
+         "patterns": ["Id like to order something", "whats on the menu",
+           "what do you reccommend?", "could i get something to eat","what do you offer",
+           "anything to eat", "lunch","got any lunch","menu please","menu","order","any recommendation",
+           "what do you have","any menu", "recommendation","menu recommendation"," any food","Is there anything to eat for lunch?",
+         "what am I going to eat today?", "What should I eat for lunch?", "Is there food available for lunch?", "Is there anything available for lunch?",
+         "food please", "Where's lunch?","where menu","Menu items?","Do you have anything else on the menu?","Have any food?",
+         "Do you offer any food or drink on your menu?","Is there anything to eat here?","What do you have on the menu?","Are there any items on the menu?",
+         "Is there anything on the menu that you can tell me about?"],
+         "responses": ["We have Starters, Salads, Sandwiches,Burger and drinks, what food categories do you want, please choose one from the listand repeat the order ",
+           "There are Starters, Salads, Sandwiches Burger and drinks, what do you want to order?,please choose one from the list and repeat the order "],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation","When are you guys available?","When are you going to be open?",
+         "when do you guys start?","when do you start?","Exactly what time of day are you open, then?","when you open",
+         "operational hours","duration of business activities","duration of operation","When do you work and for how long?",
+         "When do you work, and for how long do you do so each day?","When and for how long do you work?",
+         "When and how long do you work?"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+        {"tag": "starters",
+         "patterns": ["starters", "show starters", "starters please","Please order starters for me.","I need starters"],
+         "responses": ["We have Seafood Chowder - RM7.95, Mozzarella Sticks - RM4.95, Onion Rings - RM4.95 and Potato Fries - RM4.95 ",
+         "Seafood Chowder - RM7.95, Mozzarella Sticks - RM4.95, Onion Rings - RM4.95 and Potato Fries - RM4.95 "],
+         "context_set": ""
+        },
+        {"tag": "salads",
+         "patterns": ["salads", "show salads", "salads please","Please order salads for me.","I need salads"],
+         "responses": ["Greek Salad - RM19.95,Spinach Salad - RM 15.50, and chesszy salad - RM 12.90 ",
+         "we have Greek Salad - RM19.95,Spinach Salad - RM 15.50, and chesszy salad - RM 12.90 "],
+         "context_set": ""
+        },
+        {"tag": "sandwiches",
+         "patterns": ["sandwiches", "show sandwiches", "sandwiches please","Please order sandwiches for me.","I need sandwiches"],
+         "responses": ["Lobster Roll - RM59.95,Tuna Melt  - RM 20.50, and French Dip - RM 12.90 ",
+         "we have Lobster Roll - RM59.95,Tuna Melt  - RM 20.50, and French Dip - RM 12.90  "],
+         "context_set": ""
+        },
+        {"tag": "burger",
+         "patterns": ["burger", "show burger", "burger please","Please order burger for me.","I need burger"],
+         "responses": ["Black and Blue - RM29.95,Tuna cheese  - RM 20.50, and Carribean Jerk  - RM 22.90 ",
+         "we have Black and Blue - RM29.95,Tuna cheese  - RM 20.50, and Carribean Jerk  - RM 22.90 "],
+         "context_set": ""
+        },
+          {"tag": "order",
+         "patterns": ["I want to order burger Black and Blue and Tuna cheese","Black and blue and tuna cheese, please.",
+           "can i have 2 tuna cheese, and 3 lobster roll sandwiches and last 2 orange juices", "one Greek Salad and water please",
+           "I want to order burger Black and Blue and Tuna cheese"," one chesszy salad and watermelon three please",
+           "give me one Carribean Jerk", "one Black and Blue, 5 Carribean Jerk, special juices 5 ",
+            "one more French Dip", "1 Lobster Roll, 2 Tuna Melt, 1 Seafood Chowder,2 Mozzarella Sticks and 4 orange",
+         "I would like to order one Onion Rings, six Potato Fries and one chesszy salad ","Seafood Chowder",
+           "2 Lobster Roll, 9 Carribean Jerk  and eleven Black and Blue ","Potato Fries and chesszy salad, please.",
+         "I would like to have six lobster roll and 3 cola", " give me one cola and Black and Blue","one cola"," two food", "i want order 6 water",
+         "3 carribean jerk", "90 potato fries", " one lobster roll","Carribean Jerk and cola, please.",
+         "Lobster Roll","orange juices","French Dip","watermelon","water"," give me one water",
+         "Onion Rings"," six Potato Fries and one chesszy salad "," 9 Mozzarella Sticks","Mozzarella Sticks","Lobster Roll",
+         "Greek Salad ,Spinach Salad, and chesszy salad"],
+         "responses": ["Yes, done ordered", "order created", "your orders is created",
+           "Dear customer, Your odered created"],
+         "context_set": ""
+        },
+        {"tag": "drinks",
+         "patterns": ["drinks", "show drinks", "drinks please","Please order drinks for me.","I need drinks"],
+         "responses": ["cola - RM 5.00, orange juices - RM 10.90, special juices - RM 20.00, watermelon - RM10.30, water - RM3.00"],
+         "context_set": ""
+        }
+]
 }
