@@ -1,0 +1,11 @@
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_json.html
+
+https://www.delftstack.com/howto/python-pandas/pandas-remove-index/
+
+https://tutorial.eyehunts.com/python/python-json-dumps-indent-example/
+
+https://datatofish.com/csv-to-json-string-python/
+
+https://www.geeksforgeeks.org/convert-csv-to-json-using-python/
+
+https://medium.com/@hannah15198/convert-csv-to-json-with-python-b8899c722f6d
