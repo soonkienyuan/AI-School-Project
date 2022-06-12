@@ -15,7 +15,7 @@
          "context_set": ""
         },
         {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
          "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
          "context_set": ""
         },
